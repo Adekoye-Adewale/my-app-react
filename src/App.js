@@ -29,6 +29,7 @@ const app = props => {
       <div className="App">
         <h1>Hi, I'm React App</h1>
         <p>This is my first trial but i don dey get errors</p>
+        <p>Soon i will become a boss</p>
         <button onClick={switchNameHandler}>Switch Name</button>
         <Person name={personsState.persons[0].name} age={personsState.persons[0].age} />
         <Person name={personsState.persons[1].name} age={personsState.persons[1].age} />
